@@ -39,7 +39,33 @@ h4{
   border: solid 3px #364e96;/*線色*/
   padding: 0.5em;/*文字周りの余白*/
   border-radius: 0.5em;/*角丸*/
+  margin: auto;
 }
 img{
   border-radius: 35px; /* ちょっとだけ角丸 */
+}
+ul {
+  
+  border-radius: 5px;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+  width: 170px;
+  height: 600px;
+  font-size: 25px;
+  float: left;
+}
+
+ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;
+}
+
+ul li:before {
+  
+  font-family: "Font Awesome 5 Free";
+  content: "\f138";/*アイコンの種類*/
+  position: absolute;
+  left : 1em;/*左端からのアイコンまでの距離*/
+  color: skyblue;/*アイコン色*/
 }
