@@ -1,17 +1,38 @@
 a{
-  margin: 10px;
-  color: wheat;
+  margin: 10px 28px 0 30px;
+  color: #364e96;
 }
 h1{
-  color: wheat;/*文字色*/
-  /*線の種類（点線）2px 線色*/
-  border-bottom: dashed 2px #6594e0;
+  
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
 }
 h2{
   float: left;
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+  margin: inherit;
+  height: 400px;
 }
 h4{
-  color: wheat;/*文字色*/
-  /*線の種類（点線）2px 線色*/
-  border-bottom: dashed 2px #6594e0;
+  color: #364e96;/*文字色*/
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+  width: 820px;
+}
+.login{
+  display: flex;
+  color: #364e96;/*文字色*/
+  margin: 0 10px;
+  font-size: 22px;
+  border: solid 3px #364e96;/*線色*/
+  padding: 0.5em;/*文字周りの余白*/
+  border-radius: 0.5em;/*角丸*/
+}
+.login_pass{
+  margin: 0px 470px;
 }
