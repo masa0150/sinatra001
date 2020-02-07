@@ -15,7 +15,8 @@ h2{
   padding: 0.5em;/*文字周りの余白*/
   border-radius: 0.5em;/*角丸*/
   margin: inherit;
-  height: 400px;
+  height: 630px
+  
 }
 h4{
   color: #364e96;/*文字色*/
@@ -29,10 +30,16 @@ h4{
   color: #364e96;/*文字色*/
   margin: 0 10px;
   font-size: 22px;
+}
+.login_pass{
+  margin: 0px 470px;
+}
+.info{
+  color: #364e96;/*文字色*/
   border: solid 3px #364e96;/*線色*/
   padding: 0.5em;/*文字周りの余白*/
   border-radius: 0.5em;/*角丸*/
 }
-.login_pass{
-  margin: 0px 470px;
+img{
+  border-radius: 35px; /* ちょっとだけ角丸 */
 }
