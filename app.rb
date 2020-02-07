@@ -17,10 +17,6 @@ get '/info' do
   erb :info
 end
 
-get '/accses' do
-  erb :accses
-end
-
 post '/confirm' do
   @email = params[:email]
   @message = params[:message]
