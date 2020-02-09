@@ -17,6 +17,10 @@ get '/info' do
   erb :info
 end
 
+get '/shop2' do
+  erb :shop2
+end
+
 post '/confirm' do
   @email = params[:email]
   @message = params[:message]
